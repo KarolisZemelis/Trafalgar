@@ -467,11 +467,8 @@ footer {
   padding: 118px 145px 113px 190px;
 }
 
-.footer_left {
-  align-items: left;
-  padding-right: 145px;
-  width: 35%;
-  border: 1px solid black;
+.footer_left p {
+  width: 63%;
 }
 
 .footer_left_logo a {
@@ -522,7 +519,6 @@ footer {
 .footer_left_text :nth-child(1) {
   padding-top: 17px;
   padding-bottom: 31px;
-  /* padding-right: px; */
 }
 
 footer .footer_right {
@@ -553,10 +549,6 @@ footer .footer_right {
   padding-left: 177px;
   padding-right: 190px;
 }
-
-/* .images {
-  position: relative;
-} */
 
 .image1 {
   position: absolute;
