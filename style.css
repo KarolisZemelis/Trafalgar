@@ -554,38 +554,36 @@ footer .footer_right {
   padding-right: 190px;
 }
 
-.images {
+/* .images {
   position: relative;
-}
+} */
 
 .image1 {
   position: absolute;
-  border: 1px solid black;
-  top: -1000%;
-  /* top: -1400%; */
-  /* left: -1000%; */
-  opacity: 0.4;
+  top: 10%;
+  left: 0%;
+  opacity: 0.8;
 }
 
 .image2 {
   position: absolute;
-  top: 121%;
-  left: 9%;
+  top: 91%;
+  left: 13%;
   z-index: -1;
   opacity: 0.8;
 }
 
 .image3 {
   position: absolute;
-  top: 158%;
-  right: 17.5%;
+  top: 115%;
+  right: 18%;
   z-index: -1;
   opacity: 0.8;
 }
 
 .image4 {
   position: absolute;
-  bottom: -215%;
+  top: 220%;
   right: 0%;
   z-index: -1;
   opacity: 0.8;
@@ -593,21 +591,26 @@ footer .footer_right {
 
 .image5 {
   position: absolute;
-  bottom: -470%;
-  right: 6%;
+  bottom: -320%;
+  right: 12%;
   z-index: -1;
 }
 
 .image6 {
   position: absolute;
-  top: 100%;
-  left: 10%;
-  /* border: 1px solid black; */
+  bottom: -277%;
+  left: 23%;
+  z-index: -1;
 }
 
 .image7 {
   position: absolute;
-  /* bottom: -215%; */
-  z-index: -1;
-  opacity: 0.8;
+  bottom: -346%;
+  right: 8%;
+}
+
+.image8 {
+  position: absolute;
+  bottom: -392%;
+  left: 0px;
 }
