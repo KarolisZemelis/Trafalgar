@@ -31,6 +31,10 @@ a {
   color: var(--gray);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -229,12 +233,17 @@ h4 {
   max-width: var(--lg);
 }
 
-.bottom_banner1_left img {
+.bottom_banner1_left {
   /* max-width: 650px;
   max-height: 477px; */
-  margin-right: 137px;
+  padding-right: 137px;
+  /* width: 50%; */
   /* position: relative; */
   /* left: -6%; */
+}
+
+.bottom_banner1_right {
+  /* width: 50%; */
 }
 
 .bottom_banner1_right h4 {
@@ -249,6 +258,7 @@ h4 {
   font-size: 18px;
   font-weight: 300;
   padding-right: 50px;
+  /* width: 40%; */
 }
 
 .bottom_banner1_right .line,
